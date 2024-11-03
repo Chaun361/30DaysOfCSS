@@ -1,8 +1,8 @@
-body{
-  background-color: #F398BE;
+body {
+  background-color: #01fd2b;
 }
 
-.box{
+.box {
   background-color: whitesmoke;
   position: absolute;
   top: 50%;
@@ -12,7 +12,7 @@ body{
   padding: 10px;
 }
 
-.search{
+.search {
   color: #9E314B;
   background-color: #F398BE;
   width: 50px;
@@ -24,7 +24,7 @@ body{
   transition: 0.5;
 }
 
-.text{
+.text {
   color: whitesmoke;
   border: none;
   background: none;
@@ -36,11 +36,11 @@ body{
   width: 0;
 }
 
-.box:hover > .text {
+.box:hover>.text {
   width: 300px;
   padding: 0 7px;
 }
-  
-.box:hover > .search {
+
+.box:hover>.search {
   background-color: whitesmoke;
 }
