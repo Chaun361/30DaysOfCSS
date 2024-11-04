@@ -1,5 +1,5 @@
 body {
-    background: #3bc9ceaf;
+    background: #ff0000af;
 }
 
 .center {
@@ -10,7 +10,7 @@ body {
 }
 
 .fas {
-  font-size: 5em!important;
+    font-size: 5em !important;
 }
 
 
@@ -30,20 +30,22 @@ body {
 
 @keyframes animate {
     0% {
-        box-shadow: 0 0 0 0 #d351a3d3, 
-        0 0 0 0 #cc3394d3;
+        box-shadow: 0 0 0 0 #d351a3d3,
+            0 0 0 0 #cc3394d3;
     }
+
     40% {
-        box-shadow: 0 0 0 20px #b95a96cc, 
-        0 0 0 0 #8d336aaf;
+        box-shadow: 0 0 0 20px #b95a96cc,
+            0 0 0 0 #8d336aaf;
     }
+
     80% {
         box-shadow: 0 0 0 30px #792359cc,
-        0 0 0 30px #702e589f;
+            0 0 0 30px #702e589f;
     }
+
     100% {
-        box-shadow: 0 0 0 0 40px #7e1758cc, 
-        0 0 0 40px  #aa398186;
+        box-shadow: 0 0 0 0 40px #7e1758cc,
+            0 0 0 40px #aa398186;
     }
 }
-
